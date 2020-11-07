@@ -7,10 +7,11 @@ async function insert(){
   const eventoPostgres = await models.evento.create({nome: 'Encontro de Postgresql'})
 
   //Participantes
-  const carlos  = await models.participante.create({nome: 'Carlos'})
-  const augusto = await models.participante.create({nome: 'Augusto'})
   const janaina = await models.participante.create({nome: 'Janaína'})
   const rafael  = await models.participante.create({nome: 'Rafael'})
+  const carlos  = await models.participante.create({nome: 'Carlos'})
+  const augusto = await models.participante.create({nome: 'Augusto'})
+  
 
 
   //Participantes em eventos

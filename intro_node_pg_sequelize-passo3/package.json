@@ -1,14 +1,17 @@
 {
   "name": "aula_node_postgres",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Repositório utilizado na aula de introdução ao Node com Postgres e Sequelize**",
   "main": "index.js",
   "dependencies": {
     "pg": "^7.8.1",
     "sequelize": "^4.42.0"
   },
-  "devDependencies": {},
   "scripts": {},
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viniciusilva811/intro_node_pg_sequelize/tree/master/intro_node_pg_sequelize-passo3"
+  }
 }
